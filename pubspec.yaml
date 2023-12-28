@@ -1,0 +1,31 @@
+name: news_tdd
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  dio: ^5.4.0
+  flutter:
+    sdk: flutter
+
+
+  mocktail: any
+  bloc_test: any
+  flutter_bloc: ^8.1.3
+  http_mock_adapter: ^0.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+  # json generate qilib beradi
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
